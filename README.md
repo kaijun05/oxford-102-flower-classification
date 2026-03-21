@@ -36,6 +36,15 @@ CDS6354 Machine Learning (Trimester November/December 2025 - Term 2530)
     <strong>toggle</strong> between two fine-tuned architectures: ResNet50 and MobileNetV2, and <strong>visualize</strong> Top-5 predictions 
     with real-time confidence scores.
   </p>
+  <br>
+  <p align='center'>
+    View the <strong>Web App</strong>
+  </p>
+  <p align='center'>
+    <a href='https://oxford-102-flower-classification.streamlit.app/'>
+      <img src='https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white'>
+    </a>
+  </p>
 </div>
 
 <h2>Model Architectures</h2>
