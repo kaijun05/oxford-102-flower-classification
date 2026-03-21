@@ -89,25 +89,17 @@ CDS6354 Machine Learning (Trimester November/December 2025 - Term 2530)
   </p>
   <ul>
     <li>
-      <strong>RO1 (Performance):</strong> ResNet50 (Augmented) outperformed all models, proving that skip-connections effectively 
-      preserve fine-grained features. The test accuracies of the Custom CNN models are much lower as compared to the ResNet-50 and MobileNetV2. 
-      Also, the test losses of all Custom CNN variants scored the highest. This broad gap evidently points out that the Custom CNN cannot be 
-      compared in terms of performance for this fine-grained classification problem.
+      <strong>RO1 (Performance):</strong> ResNet50 (Augmented) <strong>outperformed</strong> all models, proving that skip-connections effectively 
+      preserve fine-grained features. In contrast, the Custom CNN variants consistently exhibited the <strong>lowest accuracies and highest test losses</strong> across all trials. This significant performance gap confirms that shallower architectures lack the depth required to resolve the complex patterns in the Oxford 102 Flower dataset.
     </li>
     <br>
     <li>
       <strong>RO2 (Augmentation):</strong> Data Augmentation (Rotation, Zoom, Flip) improved ResNet50's accuracy in general. ResNet-50 has a 
-      strong advantage of basing its architecture on the pre-trained model and fine-tuning, which has enabled it to show a strong similarity in the 
-      trend of both training and validation metrics, suggesting successful avoidance of overfitting. 
-      This generalization is also augmented with data augmentation. On the contrary, Custom CNN has a terrible overfitting condition because it 
-      has a low validation score. Although MobileNetV2 tends to be robust because of transfer learning, data augmentation behavior can be more 
-      complicated during the prevention of overfitting, but early stopping can be used to address it.
+      strong advantage of basing its architecture on the pre-trained model and fine-tuning, which has enabled it to show a strong similarity in the trend of both training and validation metrics, suggesting <strong>successful avoidance of overfitting</strong>. Conversely, the Custom CNN suffered from <strong>extreme overfitting</strong>, characterized by high training accuracy but failing validation scores. While MobileNetV2 was robust due to transfer learning, its response to augmentation was more volatile.
     </li>
     <br>
     <li>
-      <strong>RO3 (Generalizability):</strong> MobileNetV2 offers a higher tradeoff between computational cost (in terms of training time) and 
-      accuracy than ResNet-50, particularly where the cost factor is of main concern. ResNet-50 can train very slightly higher peak accuracy, 
-      although MobileNetV2 is competitive in terms of accuracy, but with much lower training time in some settings.
+      <strong>RO3 (Computational Efficiency):</strong> MobileNetV2 offers a <strong>higher tradeoff between computational cost (in terms of training time) and accuracy</strong>. While <strong>ResNet50 achieved the absolute peak accuracy (97%)</strong>, MobileNetV2 remained highly competitive (91%) while requiring <strong>shorter training times</strong> and fewer parameters. This confirms that while deeper networks like ResNet50 are superior for raw precision, MobileNetV2 is the better choice for environments with limited resources where deployment speed and hardware efficiency are primary considerations.
     </li>
   </ul>
 </div>
