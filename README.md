@@ -134,3 +134,13 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+
+<h2>Contributions</h2>
+
+|   | Name                              |
+|--:|:-----------------------------------------:|
+| 1 | LOOI KAI JUN |
+| 2 | CHEW EN QING |
+| 3 | CHIN JIA WEN |
+| 4 | PRITIVE NAIR A/L K SRITHARAN |
+| 5 | SAYID ABDUR-RAHMAN AL-AIDARUS BIN SYED ABU BAKAR MASHOR AL-IDRUS |
